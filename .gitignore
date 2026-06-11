@@ -1,0 +1,9 @@
+# Binaries
+golink
+*.exe
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
