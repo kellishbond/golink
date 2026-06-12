@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-var store = map[string]string{}
+// var store = map[string]string{}
 
 var letters = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
 
