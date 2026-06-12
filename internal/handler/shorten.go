@@ -43,6 +43,6 @@ func Shorten(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusCreated)
 	json.NewEncoder(w).Encode(map[string]string{
 		"code":      code,
-		"short_url": "https://golink-production-8f50.up.railway.app/" + code,
+		"short_url": "https://golink-production-8f50.up.railway.app/health/" + code,
 	})
 }
